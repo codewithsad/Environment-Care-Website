@@ -1,0 +1,266 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+@media (max-width: 1599px) {
+
+}
+
+@media (max-width: 1399px) {}
+    
+@media (min-width: 992px) and (max-width: 1199.98px) {
+   /*===============
+       Header Section
+    =================*/
+    .main-menu ul li:not(:last-child){
+        margin-right: 30px;
+    }
+     /*===============
+       Hero Section
+    =================*/
+    .hero-text h1{
+        font-size: 50px;
+    }
+    .hero-text p {
+        margin: 10px 0 25px;
+    }
+     /*===============
+       Garden Section
+    =================*/
+    .garden-box {
+        min-height: 320px !important;
+      }
+     /*===============
+       Service Section
+    =================*/
+    .service-box{
+        min-height: 255px !important;
+    }
+      /*===============
+       Counter Section
+    =================*/
+   .counter-item p:last-of-type{
+       font-size: 16px;
+   }
+    /*===============
+       Footer Section
+    =================*/
+    .footer-content h3{
+       font-size: 20px;
+    }
+}
+@media (max-width: 991.98px) {
+    /*===============
+       Header Start
+    =================*/
+    .nav{
+        padding: 30px 0;
+    }
+    .main-menu {
+       position: fixed;
+       width: 50%;
+       background: #73b21a;
+       top: 0;
+       left: -100%;
+       border-top:2px solid #73b21a;
+       padding:30px;
+      -webkit-transition: all .5s linear;
+      -o-transition: all .5s linear;
+      transition: all .5s linear;
+      height: 100%;
+      z-index: 999;
+      min-height: 100vh;
+    }
+    .main-menu ul li:not(:last-child) {
+        margin:10px 0;
+    }
+    .main-menu ul li a{
+        color: #fff;
+    }
+    .main-menu ul li:not(:last-child) a:hover {
+        color: #000;
+      }
+	.open-menu{
+        left: 0;
+    }
+     /*===============
+       Hero Section
+    =================*/
+    .hero-text h1{
+        font-size: 36px;
+    }
+   .hero-text p{
+        margin:25px 0}
+     /*===============
+      Lnd Section
+    =================*/
+    .open-video img {
+        width: 100%;
+    }
+     /*===============
+      Service Section
+    =================*/
+    .service-desc p:nth-child(1) {
+     font-size: 16px;
+    }
+     /*===============
+      Meet Section
+    =================*/
+    .team-img img{
+        width: 100%;
+    }
+    /*===============
+      Footer Section
+    =================*/
+    .useful-links{
+        margin-left: 30px;
+    }
+}
+@media (max-width: 767px) {
+    .service-section,
+    .meet-section,
+    .gallery-section,
+    .slider-section,
+    .news-section {
+        padding-top: 65px;
+        padding-bottom: 70px;
+    }
+
+    /*===============
+     Hero Section
+    =================*/
+    .hero-section{
+        padding: 80px 0;
+    }
+    .hero-text h1{
+        font-size: 40px;
+        margin-bottom: 25px;
+    }
+     /*===============
+       Garden Section
+    =================*/
+    .garden-section{
+        padding: 60px 0 80px;
+    }
+    .garden-box {
+        min-height: auto;
+    }
+      /*===============
+      Lnd Section
+    =================*/
+    .lnd-section{
+        padding: 40px 0 70px;
+    }
+    /*===============
+      Service Section
+    =================*/
+    .service-icon{
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    .service-desc p{
+        margin-top: 15px;
+    }
+     /*===============
+      Counter Section
+    =================*/
+    .counter-section{
+        padding: 70px 0 60px;
+    }
+    .service-desc p:nth-child(1) {
+        font-size: 14px;
+    }
+    /*===============
+      Gallery Section
+    =================*/
+    .btn-area button:not(:last-of-type){
+        margin-right: 23px;
+    }
+     /*===============
+      Footer Section
+    =================*/
+    .footer-section{
+        padding-top: 70px;
+    }
+    .copyrigt-text{
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 575px) {
+
+	/*===============
+       Header Start
+    =================*/
+    .main-menu {
+        width: 80%;
+    }
+    .search-box{
+        min-width: 300px;
+        padding: 10px !important;
+    }
+    /*===============
+       Hero Section
+    =================*/
+    .hero-text h1{
+        font-size: 36px;
+    }
+    /*===============
+      Lnd Section
+    =================*/
+    .lnd-content p:first-child{
+        font-size: 18px;
+    }
+     /*===============
+      Gallery Section
+    =================*/
+    .gallery-img img{
+        width: 100%;
+    }
+    .font-size-35 {
+        font-size: 30px;
+    }
+     /*===============
+      News Section
+    =================*/
+    .news-img img{
+        width: 100%;
+    }
+    /*===============
+      Footer Section
+    =================*/
+    .useful-links{
+        margin: 0;
+    }
+}
+@media (max-width: 518px) {
+     /*===============
+      Lnd Section
+    =================*/
+    .list-content ul:first-child{
+        margin-right: 25px;
+    }
+}
+@media (max-width: 463px) {
+    /*===============
+     Header Section
+   =================*/
+    .signin-signup li:last-child a {
+    margin-bottom: 5px;
+}
+    /*===============
+     Lnd Section
+   =================*/
+   .list-content{
+       -webkit-box-orient: vertical;
+       -webkit-box-direction: normal;
+           -ms-flex-direction: column;
+               flex-direction: column;
+   }
+   .list-content ul:first-child{
+       margin-right: 0px;
+   }
+}
